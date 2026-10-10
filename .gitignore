@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+# Review video files for size and sensitive content before adding to Git.
