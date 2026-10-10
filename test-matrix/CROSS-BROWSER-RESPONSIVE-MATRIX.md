@@ -6,8 +6,9 @@ Only mark Pass or Fail after executing the check. Previously reported observatio
 |---|---|---|---|---|---|---|
 | Signup/onboarding | Not tested systematically | Not tested | Not tested | Blocker reported; reproduce | Not tested | Not tested |
 | Back/forward navigation | Not tested | Not tested | Not tested | Reported concern; reproduce | Not tested | Not tested |
-| Student date validation | Reported concern; verify | Not tested | Not tested | Not tested | Not tested | Not tested |
-| Serv Time validation | Reported concern; verify | Not tested | Not tested | Not tested | Not tested | Not tested |
+| Student creation — all 12 fields | Form concerns reported; complete TC-STU-006–013 | Not tested | Not tested | Not tested | Not tested | Not tested |
+| Student date ordering and messages | Reported concerns; verify TC-STU-001, 003, 005, 009 | Not tested | Not tested | Not tested | Not tested | Not tested |
+| SERV TIME type/range | Reported concern; verify TC-STU-002 and 010 | Not tested | Not tested | Not tested | Not tested | Not tested |
 | Worksheet creation/assignment/grading | Basic workflow reported; rerun if in scope | Not tested | Not tested | Not tested | Not tested | Not tested |
 | CPT and billing details | Not tested | Not tested | Not tested | Not tested | Not tested | Not tested |
 | Goals / accuracy | Not tested against changelog | Not tested | Not tested | Not tested | Not tested | Not tested |

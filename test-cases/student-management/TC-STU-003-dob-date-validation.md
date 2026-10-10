@@ -2,34 +2,35 @@
 
 - **Status:** Not tested
 - **Priority:** To be assessed after risk review
-- **Source:** AbleSpace changelog and/or previously reported observations; see `docs/CHANGELOG-TRACEABILITY.md`.
+- **Fields:** DOB, IEP DUE, EVAL DUE
+- **Related schema:** STUDENT-FIELD-SCHEMA.md
 
 ## Objective
-DOB relationship to due dates
+Determine whether the form enforces product-defined relationships between DOB and due dates.
 
 ## Preconditions
-Open student management using fictional test data.
-
-## Test data
-Use fictional and disposable data only. Never include real student or guardian information.
+Open student creation and use fictional test values for all remaining fields.
 
 ## Steps
-Enter DOB 10/20/2026, IEP Due 10/15/2026, and Eval Due 10/18/2026; save and inspect feedback.
+1. Enter DOB = 10/20/2026, IEP DUE = 10/15/2026, and EVAL DUE = 10/18/2026.
+2. Attempt to save.
+3. Record field-level errors or banner text.
+4. If saved, reopen the record and verify the three dates.
 
 ## Expected result
-Enforce only date relationships specified by product rules.
+Apply only date relationships explicitly required by the product. If no applicable rule is established, record observed behavior and flag the rule as a question rather than a confirmed defect.
 
 ## Actual result
-_To be completed after execution. Do not infer a result._
+_Not tested — fill in after execution._
 
 ## Execution record
 - Date/time:
 - OS/device:
-- Browser/version or app version:
-- Viewport/resolution:
+- Browser/version:
+- Viewport:
 - Status: Not tested
 - Evidence:
 - Notes:
 
-## Notes and limitations
-Business rules and persistence outcome need confirmation.
+## Notes / limitations
+Future DOB and date-order requirements need confirmation.

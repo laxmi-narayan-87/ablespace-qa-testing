@@ -3,7 +3,7 @@
 | Area | Prefix | Focus |
 |---|---|---|
 | Onboarding | TC-ONB | Signup, navigation, progress, name validation |
-| Student management | TC-STU | Dates, service time, invalid dates, long lists |
+| Student management | TC-STU | All 12 student form fields, requiredness, names, dates, Serv Time, school/grade/room, teacher/case manager/eligibility, saved values, date relationships, list access |
 | Caseload / IEP | TC-CAS / TC-IEP | Bulk edit, IEP upload and extraction review |
 | Goals and reports | TC-GRP | Progress-note selection, accuracy values |
 | Worksheets | TC-WS | AI generation, editing, assignment, grading |
@@ -14,3 +14,5 @@
 | Sessions | TC-SES | Custom fields in session data |
 | Reports / calendar | TC-REP / TC-CAL | Student report sharing, calendar due dates |
 | Responsive | TC-RES | Layout and record access across viewports |
+
+See test-cases/student-management/STUDENT-FIELD-SCHEMA.md for the exact field labels and synthetic baseline values.

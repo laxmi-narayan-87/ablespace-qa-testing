@@ -2,34 +2,35 @@
 
 - **Status:** Not tested
 - **Priority:** To be assessed after risk review
-- **Source:** AbleSpace changelog and/or previously reported observations; see `docs/CHANGELOG-TRACEABILITY.md`.
+- **Fields:** IEP DUE, EVAL DUE, DOB
+- **Related schema:** STUDENT-FIELD-SCHEMA.md
 
 ## Objective
-Invalid date feedback
+Check whether feedback for impossible dates is specific and actionable.
 
 ## Preconditions
-Open a form containing a date field.
-
-## Test data
-Use fictional and disposable data only. Never include real student or guardian information.
+Open student creation and prepare fictional values for the other fields.
 
 ## Steps
-Enter an impossible date such as February 30; attempt validation/save and capture the exact message.
+1. Try an impossible date such as 02/30/2026 in IEP DUE.
+2. Repeat with EVAL DUE and DOB if the form permits.
+3. Attempt validation/save and capture the exact field-level message.
+4. Check whether the message accurately identifies an impossible date, format issue, or range issue.
 
 ## Expected result
-The message explains whether the date is impossible, incorrectly formatted, or outside an allowed range.
+The message clearly explains the invalid input and identifies the affected field.
 
 ## Actual result
-_To be completed after execution. Do not infer a result._
+_Not tested — fill in after execution._
 
 ## Execution record
 - Date/time:
 - OS/device:
-- Browser/version or app version:
-- Viewport/resolution:
+- Browser/version:
+- Viewport:
 - Status: Not tested
 - Evidence:
 - Notes:
 
-## Notes and limitations
-A generic message was reported; capture exact wording and field.
+## Notes / limitations
+A generic format/future-date message was previously reported; capture exact wording before classifying as a usability defect.

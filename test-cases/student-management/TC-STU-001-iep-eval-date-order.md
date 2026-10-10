@@ -2,34 +2,35 @@
 
 - **Status:** Not tested
 - **Priority:** To be assessed after risk review
-- **Source:** AbleSpace changelog and/or previously reported observations; see `docs/CHANGELOG-TRACEABILITY.md`.
+- **Fields:** IEP DUE, EVAL DUE
+- **Related schema:** STUDENT-FIELD-SCHEMA.md
 
 ## Objective
-IEP Due and Eval Due date relationship
+Determine how the student creation form handles a relative ordering between IEP DUE and EVAL DUE.
 
 ## Preconditions
-Open student management using fictional test data.
-
-## Test data
-Use fictional and disposable data only. Never include real student or guardian information.
+Open student creation and use fictional values for all 12 fields.
 
 ## Steps
-Enter IEP Due 10/20/2026 and Eval Due 10/15/2026; save and inspect validation and stored values.
+1. Fill FIRST NAME, LAST NAME, SERV TIME, SCHOOL, GRADE, DOB, ROOM NUMBER, TEACHER, CASE MANAGER, and ELIGIBILITY with ordinary synthetic values.
+2. Set IEP DUE to 10/20/2026 and EVAL DUE to 10/15/2026.
+3. Save and record validation feedback.
+4. If saved, reopen the record and verify both dates.
 
 ## Expected result
-Follow the application's specified date-order rules. If rules are not specified, record observed behavior without assuming invalidity.
+Follow an explicitly defined product rule for IEP/EVAL date ordering. If no rule is established, record observed behavior without asserting that this combination is invalid.
 
 ## Actual result
-_To be completed after execution. Do not infer a result._
+_Not tested — fill in after execution._
 
 ## Execution record
 - Date/time:
 - OS/device:
-- Browser/version or app version:
-- Viewport/resolution:
+- Browser/version:
+- Viewport:
 - Status: Not tested
 - Evidence:
 - Notes:
 
-## Notes and limitations
-Expected ordering rule requires confirmation.
+## Notes / limitations
+The tester previously reported this combination appeared to be accepted; save behavior and intended rules require confirmation.
